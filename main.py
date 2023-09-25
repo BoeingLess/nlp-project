@@ -17,7 +17,7 @@ def preprocess(text: str) -> str:
 
 
 def tokenize(text: str) -> list[str]:
-    return re.findall(r"\w{2,}", text)
+    return re.findall(r"\w{3,}", text)
 
 
 
